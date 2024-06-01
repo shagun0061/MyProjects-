@@ -1,13 +1,13 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import InputFeild from './components/InputFeild'
+const App: React.FC = () => {
+  const [todo,setTodo] = useState<string>('');
   return (
-    <>
-     todo app with typescript
-    </>
+    <div className="mainBox">
+      <h1>Tasker</h1>
+      <InputFeild todo={todo} setTodo={setTodo} />
+    </div>
   )
 }
 
