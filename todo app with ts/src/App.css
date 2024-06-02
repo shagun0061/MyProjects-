@@ -27,3 +27,44 @@
   background-color: lightblue;
   font-weight: 700;
 }
+.main_section{
+display: flex;
+justify-content: center;
+gap: 20px;
+margin-top: 20px ;
+}
+
+.active_task_section{
+  background-color: bisque;
+  width: 50%;
+  padding: 20px;
+}
+.completed_task_section{
+  background-color: lightcoral;
+  width: 50%;
+  padding: 20px;
+}
+.sigle_todo{
+  border: 1px solid red;
+  display: flex;
+  gap: 20px;
+  background-color: aqua;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sigle_todo_text{
+  width: 70%;
+  text-align: left;
+  padding: 20px;
+  font-size: larger;
+ font-weight: 800;
+}
+
+.sigle_todo_btns{
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: larger;
+}
